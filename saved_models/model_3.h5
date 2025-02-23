@@ -1,0 +1,6 @@
+# Define and train model_3
+model_3, callbacks_3 = define_model(optimizer='rmsprop', regularizer=l1(0.01), early_stopping=False, dropout_rate=0.2, learning_rate=0.001)
+history_3 = train_and_evaluate(model_3, callbacks_3, X_train, y_train, X_val, y_val)
+
+# Save model_3
+model_3.save('saved_models/model_3.h5')

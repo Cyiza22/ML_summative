@@ -1,0 +1,6 @@
+# Define and train model_4
+model_4, callbacks_4 = define_model(optimizer='adam', regularizer=l2(0.01), early_stopping=True, dropout_rate=0.2, learning_rate=0.001)
+history_4 = train_and_evaluate(model_4, callbacks_4, X_train, y_train, X_val, y_val)
+
+# Save model_4
+model_4.save('saved_models/model_4.h5')
