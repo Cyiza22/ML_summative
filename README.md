@@ -7,7 +7,7 @@ Dataset
 The dataset contains 569 samples with 30 features each, such as radius, texture, and symmetry. The target variable is the diagnosis (`M` for malignant and `B` for benign). (link: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 
-Findings
+Findings(https://docs.google.com/document/d/1Gg3XuivTzq6HVHmGGlp17ALHq21yVTTxyPxL3Ix0MPM/edit?usp=sharing)
 
 
 Instance
